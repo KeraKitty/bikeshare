@@ -53,4 +53,4 @@ ggplot(aes(x = Timestamp), data = df_sub, xaxt = "n") +
   axis.Date(1, at = df_sub$Timestamp, labels = format(df_sub$Timestamp, "H%:M%"),
                                                las = 2)
   #scale_x_continuous(breaks =
-                       c(0, 6, 12, 18, 24))
+                       #c(0, 6, 12, 18, 24))
