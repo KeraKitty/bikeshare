@@ -52,5 +52,5 @@ ggplot(aes(x = Timestamp), data = df_sub, xaxt = "n") +
   geom_freqpoly(aes(color = User.Type), size = 1.5, bins = 24) +
   axis.Date(1, at = df_sub$Timestamp, labels = format(df_sub$Timestamp, "H%:M%"),
                                                las = 2)
-  scale_x_continuous(breaks =
+  #scale_x_continuous(breaks =
                        c(0, 6, 12, 18, 24))
